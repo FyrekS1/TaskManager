@@ -93,7 +93,7 @@ set_default_color_theme("blue")
 root = CTk()
 root.title("Task Manager")
 
-icon_path = resource_path("icon.png")  # Иконка в формате PNG
+icon_path = resource_path("icon.png")
 
 try:
     icon = PhotoImage(file=icon_path)
